@@ -12,18 +12,22 @@ The analysis addresses the following key business questions:
 
 - Which pizza categories generate the most revenue?
 
-What is the pricing distribution across the menu?
+- What is the pricing distribution across the menu?
 
-Is there a relationship between price and quantity sold?
+- Is there a relationship between price and quantity sold?
 
-Which days generate the highest sales volume and revenue?
+- Which days generate the highest sales volume and revenue?
 
-What does the distribution of daily sales look like?
+- What does the distribution of daily sales look like?
 
-What is the average order frequency?
+- What is the average order frequency?
 
-What are the peak sales periods during the day?
+- What are the peak sales periods during the day?
 
-How do sales vary between weekdays and weekends?
+- How do sales vary between weekdays and weekends?
 
-How do sales vary monthly?
+- How do sales vary monthly?
+
+# Dataset Description
+The dataset consists of four relational tables:
+1. Orders
