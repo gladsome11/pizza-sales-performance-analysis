@@ -31,11 +31,9 @@ The analysis addresses the following key business questions:
 # Dataset Description
 The dataset consists of four relational tables:
 1. orders.csv
-  - order_id – Unique identifier for each order
-
-  - date – Date the order was placed
-
-  - time – Time the order was placed
+   - order_id – Unique identifier for each order
+   - date – Date the order was placed
+   - time – Time the order was placed
 
 2. order_details.csv
    - order_details_id – Unique identifier for each pizza line item
@@ -66,6 +64,7 @@ The data follows a relational structure:
 
 # Features & Analytical Components
  ## Feature Engineering
+
  - Extracted day of week
  
  - Extracted hour of day
@@ -75,6 +74,42 @@ The data follows a relational structure:
  - Created weekday vs weekend indicators
 
  - Generated monthly features
+
+ ## Demand & Product Performance
+ 
+ - Total quantity sold by pizza type and size
+
+ - Category-level sales performance
+
+ - Size-level demand analysis
+
+ - Identification of top-performing products
+
+ ## Pricing & Sales Analysis
+
+ - Menu price distribution analysis
+
+ - Revenue contribution by product
+
+ - Relationship between price and quantity sold
+
+ - Total quantity vs total sales comparison
+
+ ## Time Series Analysis
+
+ - Sales by day of week
+
+ - Revenue by day
+
+ - Distribution of daily sales
+
+ - Average order frequency
+
+ - Peak hourly sales periods
+
+ - Weekday vs weekend comparison
+
+ - Monthly sales variation
 
 
    
