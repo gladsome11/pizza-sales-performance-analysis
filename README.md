@@ -111,6 +111,79 @@ The data follows a relational structure:
 
  - Monthly sales variation
 
+# Techniques Used
+- Relational data merging (primary–foreign key joins)
+
+- Data Cleaning
+  
+- Time-based feature extraction
+
+- GroupBy aggregation
+
+- Revenue derivation
+
+- Distribution analysis (histograms)
+
+- Categorical comparison (bar charts)
+
+- Peak detection and annotation
+
+- Comparative analysis across temporal dimensions
+
+# Visualizations
+The project includes:
+
+- Bar charts (demand by type and size)
+
+- Revenue comparison visuals
+
+- Time-series line charts
+
+- Peak hour analysis charts
+
+- Weekday vs weekend comparisons
+Visualizations are designed for business readability and decision-making clarity.
+
+# Business Impact
+This analysis demonstrates how transactional restaurant data can be leveraged to:
+- Optimize staffing during peak hours
+
+- Improve inventory planning
+
+- Identify high-performing products
+
+- Support pricing strategy evaluation
+
+- Detect revenue concentration risks
+
+- Enhance demand forecasting
+
+# Tools & Technologies
+
+- Python
+
+- Pandas
+
+- NumPy
+
+- Matplotlib
+
+- Seaborn
+
+- Jupyter Notebook
+
+# Future Improvements
+
+- Implement dashboard version (e.g., dash,Streamlit or Power BI)
+
+- Add revenue concentration (Pareto) analysis
+
+- Perform price elasticity modeling
+
+- Introduce predictive forecasting
+
+- Automate data pipeline
+
 
    
 
