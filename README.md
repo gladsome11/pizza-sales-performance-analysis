@@ -31,3 +31,8 @@ The analysis addresses the following key business questions:
 # Dataset Description
 The dataset consists of four relational tables:
 1. Orders
+  - order_id – Unique identifier for each order
+
+  - date – Date the order was placed
+
+  - time – Time the order was placed
