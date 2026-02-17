@@ -30,9 +30,52 @@ The analysis addresses the following key business questions:
 
 # Dataset Description
 The dataset consists of four relational tables:
-1. Orders
+1. orders.csv
   - order_id – Unique identifier for each order
 
   - date – Date the order was placed
 
   - time – Time the order was placed
+
+2. order_details.csv
+   - order_details_id – Unique identifier for each pizza line item
+   - order_id – Foreign key linking to Orders
+   - pizza_id – Foreign key linking to Pizzas
+   - quantity – Number of pizzas ordered
+  
+3. pizzas.csv
+   - pizza_id – Unique pizza identifier
+   - pizza_type_id – Foreign key that ties each pizza to its broader pizza type
+   - size – Size of the pizza (Small, Medium, Large, X Large, or XX Large)
+   - price – Price of the pizza in USD
+
+4. pizza_types.csv
+   - pizza_type_id – Unique identifier for each pizza type
+   - name – Name of the pizza as shown in the menu
+   - category – Category that the pizza fall under in the menu (Classic, Chicken, Supreme, or Veggie)
+   - ingredients – Comma-delimited ingredients used in the pizza as shown in the menu (they all include Mozzarella Cheese, even if not specified; and they all include Tomato Sauce, unless another sauce is specified)
+
+
+# Data Relationships
+The data follows a relational structure:
+- One order can contain multiple pizzas.
+
+- Each pizza has descriptive attributes such as size, category, and price.
+
+- The order_details table serves as the transactional fact table driving analysis.
+
+# Features & Analytical Components
+ ## Feature Engineering
+ - Extracted day of week
+ 
+ - Extracted hour of day
+
+ - Derived revenue column (quantity × price)
+
+ - Created weekday vs weekend indicators
+
+ - Generated monthly features
+
+
+   
+
