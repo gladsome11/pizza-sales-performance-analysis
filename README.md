@@ -159,19 +159,19 @@ This analysis demonstrates how transactional restaurant data can be leveraged to
 - Enhance demand forecasting
 
 # Key Insights
- ##KPIs
+ ###KPIs
  Total revenue : $ 817860.05
  Total Quantity of pizza sold: 49574
  Total no of pizza types on menu: 32
  Total no of pizza size on menu: 5
  
- ## Menu Structure & Revenue Distribution
+ ### Menu Structure & Revenue Distribution
 The menu includes 32 pizza types across 91 size variations (S, M, L, XL, XXL). Revenue is moderately distributed:
  - 	Highest revenue-contributing pizza type: Thai Chicken (5.3%)
  - 	Lowest revenue-contributing pizza type: Brie Carre (1.4%)
 No single pizza dominates revenue excessively, indicating a moderately diversified demand structure rather than extreme SKU dependency.
 
- ## Pricing & Demand Relationship
+ ### Pricing & Demand Relationship
 A low negative correlation exists between price and quantity sold. This means: As price increases, quantity demanded tends to decrease. However, the relationship is weak that is, price alone does not fully describe demand.
 This was observed from the analysis
  - 	Most demanded variant: Big Meat (Small) – $12.00
@@ -182,7 +182,7 @@ This was observed from the analysis
  - 	Most premium pizza type on average: Brie Carre
 Customers are sensitive to extreme price (e.g., XXL variants), but mid-range pricing performs consistently well. This shows that Price matters, but it is not the only driver. There are likely to be more factors like; Value perception, flavor preference, and size which might play a stronger role than price alone.
 
- ## Category Performance
+ ### Category Performance
 
 - Highest revenue contribution: Classic (26.9%)
 
@@ -190,25 +190,25 @@ Customers are sensitive to extreme price (e.g., XXL variants), but mid-range pri
 
 The gap between highest and lowest categories is relatively narrow, which indicates that Category-level performance is balanced. No category is underperforming severely, but Classic leads as the main category.
 
- ## Size Preference Dynamics
+ ### Size Preference Dynamics
 - Large (L) is the most purchased size.
 - XXL is the least purchased size.
 Customers constantly prefers Large indicating it represents the best perceived value-to-price ratio. XXL pricing likely exceeds customer willingness to pay for incremental size.
 
- ## Customer Purchase Behavior
+ ### Customer Purchase Behavior
 - Average order size: 2.3 pizzas per order
 - Average daily orders: 59
 - Most orders contain 1–2 pizzas
 - Orders of 5+ pizzas are statistical outliers 
 This confirms that revenue is driven by steady transaction volume rather than bulk purchases.
 
- ## Product Preference Patterns
+ ### Product Preference Patterns
 The two most frequently purchased variants are:
 - BBQ Chicken (Medium)
 - Big Meat (Small)
 Both are in the mid-price range. This shows that customers prefer perceived value rather than extreme budget or premium offerings.
 
-## Time & Seasonality Patterns
+### Time & Seasonality Patterns
 - Peak hour: Between 12 PM – 6 PM 
 
 - Revenue highest on Fridays
