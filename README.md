@@ -69,7 +69,7 @@ The data follows a relational structure:
  
  - Extracted hour of day
 
- - Derived revenue column (quantity × price)
+ - Derived sale(revenue) column (quantity × price)
 
  - Created weekday vs weekend indicators
 
