@@ -159,11 +159,11 @@ This analysis demonstrates how transactional restaurant data can be leveraged to
 - Enhance demand forecasting
 
 # Key Insights
- ###KPIs
- Total revenue : $ 817860.05
- Total Quantity of pizza sold: 49574
- Total no of pizza types on menu: 32
- Total no of pizza size on menu: 5
+ ### KPIs
+ - Total revenue : $ 817860.05
+ - Total Quantity of pizza sold: 49574
+ - Total no of pizza types on menu: 32
+ - Total no of pizza size on menu: 5
  
  ### Menu Structure & Revenue Distribution
 The menu includes 32 pizza types across 91 size variations (S, M, L, XL, XXL). Revenue is moderately distributed:
